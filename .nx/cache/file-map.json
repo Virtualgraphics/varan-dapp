@@ -1,0 +1,618 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.7",
+  "deps": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana-developers/preset-next": "2.0.1",
+    "@solana/spl-token": "0.3.9",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-solflare": "^0.6.28",
+    "@solana/web3.js": "1.87.2",
+    "@swc/helpers": "~0.5.2",
+    "@tabler/icons-react": "2.42.0",
+    "@tailwindcss/typography": "0.5.10",
+    "@tanstack/react-query": "5.8.4",
+    "@tanstack/react-query-next-experimental": "5.8.4",
+    "bs58": "5.0.0",
+    "buffer": "6.0.3",
+    "daisyui": "3.9.3",
+    "encoding": "0.1.13",
+    "jotai": "2.5.1",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "2.4.1",
+    "tslib": "^2.3.0",
+    "@nx/eslint": "17.2.7",
+    "@nx/eslint-plugin": "17.2.7",
+    "@nx/jest": "17.2.7",
+    "@nx/js": "17.2.7",
+    "@nx/next": "17.2.7",
+    "@nx/react": "17.2.7",
+    "@nx/rollup": "17.2.7",
+    "@nx/workspace": "17.2.7",
+    "@swc-node/register": "~1.6.7",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@swc/jest": "0.2.20",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "autoprefixer": "10.4.13",
+    "eslint": "~8.48.0",
+    "eslint-config-next": "13.4.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "17.2.7",
+    "postcss": "8.4.21",
+    "prettier": "^2.6.2",
+    "tailwindcss": "3.2.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {
+    "@/*": [
+      "./web/*"
+    ],
+    "@varan-dapp/anchor": [
+      "anchor/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "6479168165376515074"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5470816220312599482"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package.json",
+        "hash": "16658086472480192059"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "10412354725592254259"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15688913770383049508"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2382986941197460357"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6203371125395835885"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1278871556712530044"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      }
+    ],
+    "projectFileMap": {
+      "web": [
+        {
+          "file": "web/.eslintrc.json",
+          "hash": "14075324894068274553"
+        },
+        {
+          "file": "web/app/account/[address]/page.tsx",
+          "hash": "6596633881127005929"
+        },
+        {
+          "file": "web/app/account/page.tsx",
+          "hash": "10599815897590818234"
+        },
+        {
+          "file": "web/app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "web/app/clusters/page.tsx",
+          "hash": "14394253094813460549"
+        },
+        {
+          "file": "web/app/global.css",
+          "hash": "7108397253489769203"
+        },
+        {
+          "file": "web/app/layout.tsx",
+          "hash": "11762209699963801659"
+        },
+        {
+          "file": "web/app/page.module.css",
+          "hash": "8152968074014344183"
+        },
+        {
+          "file": "web/app/page.tsx",
+          "hash": "6765145944375368415"
+        },
+        {
+          "file": "web/app/provider.tsx",
+          "hash": "13649904590705113387",
+          "deps": [
+            "npm:react",
+            "npm:@tanstack/react-query-next-experimental",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "web/components/account/account-data-access.tsx",
+          "hash": "9076628918162730726",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/spl-token",
+            "npm:@solana/web3.js",
+            "npm:@tanstack/react-query",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/account/account-detail-feature.tsx",
+          "hash": "5078510326215063839",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/account/account-list-feature.tsx",
+          "hash": "729224853085720231",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/account/account-ui.tsx",
+          "hash": "1202244915097314550",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/web3.js",
+            "npm:@tabler/icons-react",
+            "npm:@tanstack/react-query",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-data-access.tsx",
+          "hash": "7149646574976587801",
+          "deps": [
+            "npm:@solana/wallet-adapter-base",
+            "npm:@solana/web3.js",
+            "npm:jotai",
+            "npm:react",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-feature.tsx",
+          "hash": "3533560093864689157",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-ui.tsx",
+          "hash": "5870180995245290263",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@tabler/icons-react",
+            "npm:@tanstack/react-query",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/dashboard/dashboard-feature.tsx",
+          "hash": "14964384807952471238"
+        },
+        {
+          "file": "web/components/solana/solana-provider.tsx",
+          "hash": "9251184506727051411",
+          "deps": [
+            "npm:next",
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/wallet-adapter-base",
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/wallet-adapter-react-ui",
+            "npm:@solana/wallet-adapter-solflare",
+            "npm:react",
+            [
+              "npm:@solana/wallet-adapter-react-ui",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "web/components/ui/ui-layout.tsx",
+          "hash": "14001302836047984624",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "web/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "web/next.config.js",
+          "hash": "11075275437133129850",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "web/postcss.config.js",
+          "hash": "2759402739052110475",
+          "deps": [
+            "npm:path"
+          ]
+        },
+        {
+          "file": "web/project.json",
+          "hash": "14090006159947424050"
+        },
+        {
+          "file": "web/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "web/public/solana-logo.png",
+          "hash": "3728061907754647018"
+        },
+        {
+          "file": "web/tailwind.config.js",
+          "hash": "15953156811378497776",
+          "deps": [
+            "npm:@nx/react",
+            "npm:path",
+            "npm:daisyui"
+          ]
+        },
+        {
+          "file": "web/tsconfig.json",
+          "hash": "17109732073356728639"
+        },
+        {
+          "file": "web/public/favicon.ico",
+          "hash": "13350880582188264387"
+        },
+        {
+          "file": "web/public/varan_logo_1500.png",
+          "hash": "17777218847502486321"
+        },
+        {
+          "file": "web/public/varan_logo_500.png",
+          "hash": "12303819140247244298"
+        },
+        {
+          "file": "web/public/arrow_right.svg",
+          "hash": "11028692655085106491"
+        },
+        {
+          "file": "web/public/arrow_left.svg",
+          "hash": "3729698261143618772"
+        },
+        {
+          "file": "web/public/epta_icon04.svg",
+          "hash": "2508597643262323872"
+        },
+        {
+          "file": "web/public/epta_icon05.svg",
+          "hash": "16449457552895258057"
+        },
+        {
+          "file": "web/public/epta_icon02.svg",
+          "hash": "3327692594688463918"
+        },
+        {
+          "file": "web/public/epta_icon01.svg",
+          "hash": "4334918187885473481"
+        },
+        {
+          "file": "web/public/enDAPP_logo.svg",
+          "hash": "116993877573678389"
+        },
+        {
+          "file": "web/public/epta_icon03.svg",
+          "hash": "13528502442806508417"
+        },
+        {
+          "file": "web/public/pirates01.png",
+          "hash": "2022342220295592118"
+        },
+        {
+          "file": "web/public/varan_collection.jpg",
+          "hash": "13623123309493026625"
+        },
+        {
+          "file": "web/public/tool_shovel.jpg",
+          "hash": "13274228564463075246"
+        },
+        {
+          "file": "web/public/treasure_cest_01.png",
+          "hash": "7972649290742856635"
+        },
+        {
+          "file": "web/public/treasure_cest_02.png",
+          "hash": "15489455202689869536"
+        },
+        {
+          "file": "web/public/varan_intro01.jpg",
+          "hash": "8992937565407259277"
+        },
+        {
+          "file": "web/public/tribe_token02.jpg",
+          "hash": "13398216836908332025"
+        },
+        {
+          "file": "web/public/treasure_hunt_chill02.png",
+          "hash": "8218372774448216382"
+        },
+        {
+          "file": "web/public/Komodo-Island-map01.png",
+          "hash": "9742650744756894898"
+        },
+        {
+          "file": "web/public/varan_dancing.png",
+          "hash": "3399521072155697051"
+        },
+        {
+          "file": "web/public/tool_hammer.jpg",
+          "hash": "5833614570505751996"
+        },
+        {
+          "file": "web/public/varan_collection_image.jpg",
+          "hash": "7438280007986131240"
+        },
+        {
+          "file": "web/public/varan_intro03.jpg",
+          "hash": "10343316380719903561"
+        },
+        {
+          "file": "web/public/treasure_hunt_map01.png",
+          "hash": "4268788629278598611"
+        },
+        {
+          "file": "web/public/treasure_frontIMAGE.jpg",
+          "hash": "7825795736828203295"
+        },
+        {
+          "file": "web/public/treasure_map02.png",
+          "hash": "9875853538437850628"
+        },
+        {
+          "file": "web/public/treasure_hunt_battle02.png",
+          "hash": "16620500823911446216"
+        },
+        {
+          "file": "web/public/var_token02.jpg",
+          "hash": "6334042001954260069"
+        },
+        {
+          "file": "web/public/treasure_hunt_map02.png",
+          "hash": "17192614851954321149"
+        },
+        {
+          "file": "web/public/treasure_chest.jpg",
+          "hash": "9776884300344449679"
+        },
+        {
+          "file": "web/public/promo_rectangular.jpg",
+          "hash": "18428471060144741569"
+        },
+        {
+          "file": "web/public/token_tribe.jpg",
+          "hash": "3050233457302067906"
+        },
+        {
+          "file": "web/public/token_var.jpg",
+          "hash": "16423987050495991780"
+        },
+        {
+          "file": "web/public/tool_pickaxe.jpg",
+          "hash": "7725466726149405315"
+        },
+        {
+          "file": "web/public/treasure_hunt_chill01.png",
+          "hash": "17742095832003287892"
+        },
+        {
+          "file": "web/public/varan_intro02.jpg",
+          "hash": "1751253330166175932"
+        },
+        {
+          "file": "web/public/logo_enDAPPSM.gif",
+          "hash": "15799314735401439913"
+        },
+        {
+          "file": "web/public/treasure_hunt_battle01.png",
+          "hash": "11022832603886912131"
+        },
+        {
+          "file": "web/public/screen_temp.jpg",
+          "hash": "7925058438458283240"
+        },
+        {
+          "file": "web/public/treasure_map01.png",
+          "hash": "10704625165138624467"
+        },
+        {
+          "file": "web/public/vg_logo2023_grade.svg",
+          "hash": "7922869891103922278"
+        },
+        {
+          "file": "web/public/varan_logoTYPE.svg",
+          "hash": "6996051801281322297"
+        },
+        {
+          "file": "web/public/weapon_machete.jpg",
+          "hash": "5592997651259993932"
+        },
+        {
+          "file": "web/public/weapon_axe.jpg",
+          "hash": "17056654092191860762"
+        },
+        {
+          "file": "web/public/weapon_gun.jpg",
+          "hash": "18009261114385973762"
+        },
+        {
+          "file": "web/public/varan_ukuleleNEW.png",
+          "hash": "80286555715444344"
+        },
+        {
+          "file": "web/public/varan_swordfishNEW.png",
+          "hash": "10279511564843583968"
+        }
+      ],
+      "anchor": [
+        {
+          "file": "anchor/.eslintrc.json",
+          "hash": "10876657505767112116"
+        },
+        {
+          "file": "anchor/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "anchor/Anchor.toml",
+          "hash": "11156482985060500734"
+        },
+        {
+          "file": "anchor/Cargo.lock",
+          "hash": "7809825874495771088"
+        },
+        {
+          "file": "anchor/Cargo.toml",
+          "hash": "18016256559089331344"
+        },
+        {
+          "file": "anchor/README.md",
+          "hash": "7511245087790753582"
+        },
+        {
+          "file": "anchor/jest.config.ts",
+          "hash": "10789820129713498849",
+          "deps": [
+            "npm:fs"
+          ]
+        },
+        {
+          "file": "anchor/migrations/deploy.ts",
+          "hash": "165601981430021943",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/package.json",
+          "hash": "2762628074925719521"
+        },
+        {
+          "file": "anchor/programs/hello-world/Cargo.toml",
+          "hash": "11287746808207608867"
+        },
+        {
+          "file": "anchor/programs/hello-world/Xargo.toml",
+          "hash": "12304191003573283670"
+        },
+        {
+          "file": "anchor/programs/hello-world/src/lib.rs",
+          "hash": "4090617583428937675"
+        },
+        {
+          "file": "anchor/project.json",
+          "hash": "3285988145971848876"
+        },
+        {
+          "file": "anchor/src/hello-world-exports.ts",
+          "hash": "15783562880040060646"
+        },
+        {
+          "file": "anchor/src/index.ts",
+          "hash": "18301741715099281445"
+        },
+        {
+          "file": "anchor/target/types/hello-world.ts",
+          "hash": "2066624682315071610"
+        },
+        {
+          "file": "anchor/tests/hello-world.spec.ts",
+          "hash": "15499880517701726289",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/tsconfig.json",
+          "hash": "10304993020986584308"
+        },
+        {
+          "file": "anchor/tsconfig.lib.json",
+          "hash": "14539327243516648733"
+        },
+        {
+          "file": "anchor/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        }
+      ]
+    }
+  }
+}
