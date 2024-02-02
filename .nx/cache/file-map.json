@@ -24,6 +24,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.1",
+    "react-slideshow-image": "^4.3.0",
     "tslib": "^2.3.0",
     "@nx/eslint": "17.2.7",
     "@nx/eslint-plugin": "17.2.7",
@@ -74,32 +75,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".prettierignore",
+        "hash": "10412354725592254259"
+      },
+      {
         "file": "README.md",
         "hash": "6479168165376515074"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5470816220312599482"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "nx.json",
+        "hash": "2382986941197460357"
       },
       {
         "file": "package.json",
-        "hash": "16658086472480192059"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "10412354725592254259"
+        "hash": "12412882508905385233"
       },
       {
         "file": ".vscode/extensions.json",
@@ -110,32 +99,48 @@
         "hash": "15688913770383049508"
       },
       {
-        "file": "nx.json",
-        "hash": "2382986941197460357"
-      },
-      {
-        "file": "vercel.json",
-        "hash": "1598408354266276258"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "package-lock.json",
-        "hash": "6203371125395835885"
+        "file": ".gitignore",
+        "hash": "14598595795512493740"
       },
       {
-        "file": ".gitignore",
-        "hash": "1278871556712530044"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5470816220312599482"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12719991790686488413"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
       }
     ],
     "projectFileMap": {
@@ -161,6 +166,10 @@
           "hash": "14394253094813460549"
         },
         {
+          "file": "web/app/game/page.tsx",
+          "hash": "8189772997010958983"
+        },
+        {
           "file": "web/app/global.css",
           "hash": "7108397253489769203"
         },
@@ -169,12 +178,19 @@
           "hash": "11762209699963801659"
         },
         {
+          "file": "web/app/nft/page.tsx",
+          "hash": "925130461640976859"
+        },
+        {
           "file": "web/app/page.module.css",
           "hash": "8152968074014344183"
         },
         {
           "file": "web/app/page.tsx",
-          "hash": "6765145944375368415"
+          "hash": "6656117267838723334",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "web/app/provider.tsx",
@@ -184,6 +200,14 @@
             "npm:@tanstack/react-query-next-experimental",
             "npm:@tanstack/react-query"
           ]
+        },
+        {
+          "file": "web/app/treasure/page.tsx",
+          "hash": "1792262761026747515"
+        },
+        {
+          "file": "web/app/webtoon/page.tsx",
+          "hash": "12757600294562465194"
         },
         {
           "file": "web/components/account/account-data-access.tsx",
@@ -257,6 +281,14 @@
           "hash": "14964384807952471238"
         },
         {
+          "file": "web/components/game/Game.tsx",
+          "hash": "9167377717470384"
+        },
+        {
+          "file": "web/components/nft/NFT.tsx",
+          "hash": "11712405006028438196"
+        },
+        {
           "file": "web/components/solana/solana-provider.tsx",
           "hash": "9251184506727051411",
           "deps": [
@@ -274,13 +306,21 @@
           ]
         },
         {
+          "file": "web/components/treasurehunt/TreasureHunt.tsx",
+          "hash": "15562526215313885128"
+        },
+        {
           "file": "web/components/ui/ui-layout.tsx",
-          "hash": "14001302836047984624",
+          "hash": "9991036308203130555",
           "deps": [
             "npm:react",
             "npm:next",
             "npm:react-hot-toast"
           ]
+        },
+        {
+          "file": "web/components/webtoon/Webtoon.tsx",
+          "hash": "9383601254266210285"
         },
         {
           "file": "web/index.d.ts",
@@ -313,41 +353,32 @@
           "hash": "3244421341483603138"
         },
         {
-          "file": "web/public/solana-logo.png",
-          "hash": "3728061907754647018"
+          "file": "web/public/Komodo-Island-map01.png",
+          "hash": "9742650744756894898"
         },
         {
-          "file": "web/tailwind.config.js",
-          "hash": "15953156811378497776",
-          "deps": [
-            "npm:@nx/react",
-            "npm:path",
-            "npm:daisyui"
-          ]
-        },
-        {
-          "file": "web/tsconfig.json",
-          "hash": "17109732073356728639"
-        },
-        {
-          "file": "web/public/favicon.ico",
-          "hash": "13350880582188264387"
-        },
-        {
-          "file": "web/public/varan_logo_1500.png",
-          "hash": "17777218847502486321"
-        },
-        {
-          "file": "web/public/varan_logo_500.png",
-          "hash": "12303819140247244298"
+          "file": "web/public/arrow_left.svg",
+          "hash": "3729698261143618772"
         },
         {
           "file": "web/public/arrow_right.svg",
           "hash": "11028692655085106491"
         },
         {
-          "file": "web/public/arrow_left.svg",
-          "hash": "3729698261143618772"
+          "file": "web/public/enDAPP_logo.svg",
+          "hash": "116993877573678389"
+        },
+        {
+          "file": "web/public/epta_icon01.svg",
+          "hash": "4334918187885473481"
+        },
+        {
+          "file": "web/public/epta_icon02.svg",
+          "hash": "3327692594688463918"
+        },
+        {
+          "file": "web/public/epta_icon03.svg",
+          "hash": "13528502442806508417"
         },
         {
           "file": "web/public/epta_icon04.svg",
@@ -358,28 +389,44 @@
           "hash": "16449457552895258057"
         },
         {
-          "file": "web/public/epta_icon02.svg",
-          "hash": "3327692594688463918"
+          "file": "web/public/favicon.ico",
+          "hash": "13350880582188264387"
         },
         {
-          "file": "web/public/epta_icon01.svg",
-          "hash": "4334918187885473481"
-        },
-        {
-          "file": "web/public/enDAPP_logo.svg",
-          "hash": "116993877573678389"
-        },
-        {
-          "file": "web/public/epta_icon03.svg",
-          "hash": "13528502442806508417"
+          "file": "web/public/logo_enDAPPSM.gif",
+          "hash": "15799314735401439913"
         },
         {
           "file": "web/public/pirates01.png",
           "hash": "2022342220295592118"
         },
         {
-          "file": "web/public/varan_collection.jpg",
-          "hash": "13623123309493026625"
+          "file": "web/public/promo_rectangular.jpg",
+          "hash": "18428471060144741569"
+        },
+        {
+          "file": "web/public/screen_temp.jpg",
+          "hash": "7925058438458283240"
+        },
+        {
+          "file": "web/public/solana-logo.png",
+          "hash": "3728061907754647018"
+        },
+        {
+          "file": "web/public/token_tribe.jpg",
+          "hash": "3050233457302067906"
+        },
+        {
+          "file": "web/public/token_var.jpg",
+          "hash": "16423987050495991780"
+        },
+        {
+          "file": "web/public/tool_hammer.jpg",
+          "hash": "5833614570505751996"
+        },
+        {
+          "file": "web/public/tool_pickaxe.jpg",
+          "hash": "7725466726149405315"
         },
         {
           "file": "web/public/tool_shovel.jpg",
@@ -394,116 +441,100 @@
           "hash": "15489455202689869536"
         },
         {
-          "file": "web/public/varan_intro01.jpg",
-          "hash": "8992937565407259277"
-        },
-        {
-          "file": "web/public/tribe_token02.jpg",
-          "hash": "13398216836908332025"
-        },
-        {
-          "file": "web/public/treasure_hunt_chill02.png",
-          "hash": "8218372774448216382"
-        },
-        {
-          "file": "web/public/Komodo-Island-map01.png",
-          "hash": "9742650744756894898"
-        },
-        {
-          "file": "web/public/varan_dancing.png",
-          "hash": "3399521072155697051"
-        },
-        {
-          "file": "web/public/tool_hammer.jpg",
-          "hash": "5833614570505751996"
-        },
-        {
-          "file": "web/public/varan_collection_image.jpg",
-          "hash": "7438280007986131240"
-        },
-        {
-          "file": "web/public/varan_intro03.jpg",
-          "hash": "10343316380719903561"
-        },
-        {
-          "file": "web/public/treasure_hunt_map01.png",
-          "hash": "4268788629278598611"
+          "file": "web/public/treasure_chest.jpg",
+          "hash": "9776884300344449679"
         },
         {
           "file": "web/public/treasure_frontIMAGE.jpg",
           "hash": "7825795736828203295"
         },
         {
-          "file": "web/public/treasure_map02.png",
-          "hash": "9875853538437850628"
+          "file": "web/public/treasure_hunt_battle01.png",
+          "hash": "11022832603886912131"
         },
         {
           "file": "web/public/treasure_hunt_battle02.png",
           "hash": "16620500823911446216"
         },
         {
-          "file": "web/public/var_token02.jpg",
-          "hash": "6334042001954260069"
+          "file": "web/public/treasure_hunt_chill01.png",
+          "hash": "17742095832003287892"
+        },
+        {
+          "file": "web/public/treasure_hunt_chill02.png",
+          "hash": "8218372774448216382"
+        },
+        {
+          "file": "web/public/treasure_hunt_map01.png",
+          "hash": "4268788629278598611"
         },
         {
           "file": "web/public/treasure_hunt_map02.png",
           "hash": "17192614851954321149"
         },
         {
-          "file": "web/public/treasure_chest.jpg",
-          "hash": "9776884300344449679"
+          "file": "web/public/treasure_map01.png",
+          "hash": "10704625165138624467"
         },
         {
-          "file": "web/public/promo_rectangular.jpg",
-          "hash": "18428471060144741569"
+          "file": "web/public/treasure_map02.png",
+          "hash": "9875853538437850628"
         },
         {
-          "file": "web/public/token_tribe.jpg",
-          "hash": "3050233457302067906"
+          "file": "web/public/tribe_token02.jpg",
+          "hash": "13398216836908332025"
         },
         {
-          "file": "web/public/token_var.jpg",
-          "hash": "16423987050495991780"
+          "file": "web/public/var_token02.jpg",
+          "hash": "6334042001954260069"
         },
         {
-          "file": "web/public/tool_pickaxe.jpg",
-          "hash": "7725466726149405315"
+          "file": "web/public/varan_collection.jpg",
+          "hash": "13623123309493026625"
         },
         {
-          "file": "web/public/treasure_hunt_chill01.png",
-          "hash": "17742095832003287892"
+          "file": "web/public/varan_collection_image.jpg",
+          "hash": "7438280007986131240"
+        },
+        {
+          "file": "web/public/varan_dancing.png",
+          "hash": "3399521072155697051"
+        },
+        {
+          "file": "web/public/varan_intro01.jpg",
+          "hash": "8992937565407259277"
         },
         {
           "file": "web/public/varan_intro02.jpg",
           "hash": "1751253330166175932"
         },
         {
-          "file": "web/public/logo_enDAPPSM.gif",
-          "hash": "15799314735401439913"
-        },
-        {
-          "file": "web/public/treasure_hunt_battle01.png",
-          "hash": "11022832603886912131"
-        },
-        {
-          "file": "web/public/screen_temp.jpg",
-          "hash": "7925058438458283240"
-        },
-        {
-          "file": "web/public/treasure_map01.png",
-          "hash": "10704625165138624467"
-        },
-        {
-          "file": "web/public/vg_logo2023_grade.svg",
-          "hash": "7922869891103922278"
+          "file": "web/public/varan_intro03.jpg",
+          "hash": "10343316380719903561"
         },
         {
           "file": "web/public/varan_logoTYPE.svg",
           "hash": "6996051801281322297"
         },
         {
-          "file": "web/public/weapon_machete.jpg",
-          "hash": "5592997651259993932"
+          "file": "web/public/varan_logo_1500.png",
+          "hash": "17777218847502486321"
+        },
+        {
+          "file": "web/public/varan_logo_500.png",
+          "hash": "12303819140247244298"
+        },
+        {
+          "file": "web/public/varan_swordfishNEW.png",
+          "hash": "10279511564843583968"
+        },
+        {
+          "file": "web/public/varan_ukuleleNEW.png",
+          "hash": "80286555715444344"
+        },
+        {
+          "file": "web/public/vg_logo2023_grade.svg",
+          "hash": "7922869891103922278"
         },
         {
           "file": "web/public/weapon_axe.jpg",
@@ -514,12 +545,115 @@
           "hash": "18009261114385973762"
         },
         {
-          "file": "web/public/varan_ukuleleNEW.png",
-          "hash": "80286555715444344"
+          "file": "web/public/weapon_machete.jpg",
+          "hash": "5592997651259993932"
         },
         {
-          "file": "web/public/varan_swordfishNEW.png",
-          "hash": "10279511564843583968"
+          "file": "web/tailwind.config.js",
+          "hash": "168703906961535600",
+          "deps": [
+            "npm:@nx/react",
+            "npm:path",
+            "npm:daisyui"
+          ]
+        },
+        {
+          "file": "web/tsconfig.json",
+          "hash": "17109732073356728639"
+        },
+        {
+          "file": "web/components/frontslider/FrontSlider.tsx",
+          "hash": "8403953299427614969",
+          "deps": [
+            "npm:react",
+            "npm:react-slideshow-image"
+          ]
+        },
+        {
+          "file": "web/components/intro/Intro.tsx",
+          "hash": "4859815237101983909",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/hero/Hero.tsx",
+          "hash": "9016452300514288399",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/public/varan_hero.jpg",
+          "hash": "17182604105724919821"
+        },
+        {
+          "file": "web/public/varan_promo06.png",
+          "hash": "16721490554811942708"
+        },
+        {
+          "file": "web/public/varan_promo02.png",
+          "hash": "8183231165441106283"
+        },
+        {
+          "file": "web/public/varan_promo09.jpg",
+          "hash": "8992937565407259277"
+        },
+        {
+          "file": "web/public/varan_promo01.png",
+          "hash": "16694239759408927503"
+        },
+        {
+          "file": "web/public/varan_promo04.png",
+          "hash": "3139227249383555390"
+        },
+        {
+          "file": "web/public/varan_promo08.jpg",
+          "hash": "10343316380719903561"
+        },
+        {
+          "file": "web/public/varan_promo05.png",
+          "hash": "2684299181847774814"
+        },
+        {
+          "file": "web/public/varan_promo07.png",
+          "hash": "6890920299308000987"
+        },
+        {
+          "file": "web/public/varan_promo03.png",
+          "hash": "17899886821271152069"
+        },
+        {
+          "file": "web/public/varan_webtoon_ep01_02.png",
+          "hash": "15376193251416424227"
+        },
+        {
+          "file": "web/public/card_game.jpg",
+          "hash": "973477980260493994"
+        },
+        {
+          "file": "web/public/varan_game.jpg",
+          "hash": "14412774582516707081"
+        },
+        {
+          "file": "web/public/varan_webtoon.jpg",
+          "hash": "2517728204824750505"
+        },
+        {
+          "file": "web/public/varan_slide_01.jpg",
+          "hash": "13439090564541744812"
+        },
+        {
+          "file": "web/public/varan_slide_02.jpg",
+          "hash": "3927038420734492723"
+        },
+        {
+          "file": "web/public/varan_slide_03.jpg",
+          "hash": "12442361161246464009"
+        },
+        {
+          "file": "web/public/varan_sliders01.jpg",
+          "hash": "11392655321405373234"
         }
       ],
       "anchor": [

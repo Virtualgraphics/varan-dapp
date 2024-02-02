@@ -1,0 +1,22 @@
+- [31merror[39m Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1872:16)[39m
+[90m    at listenInCluster (node:net:1920:12)[39m
+[90m    at Server.listen (node:net:2008:7)[39m
+    at C:\Users\david\Documents\varan-dapp\node_modules\[4mnext[24m\dist\server\lib\start-server.js:150:16
+    at new Promise (<anonymous>)
+    at startServer (C:\Users\david\Documents\varan-dapp\node_modules\[4mnext[24m\dist\server\lib\start-server.js:135:11)
+    at setupFork (C:\Users\david\Documents\varan-dapp\node_modules\[4mnext[24m\dist\cli\next-dev.js:353:75)
+    at runDevServer (C:\Users\david\Documents\varan-dapp\node_modules\[4mnext[24m\dist\cli\next-dev.js:362:23)
+    at async nextDev (C:\Users\david\Documents\varan-dapp\node_modules\[4mnext[24m\dist\cli\next-dev.js:471:9) {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-4091[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'::'[39m,
+  port: [33m3000[39m
+}
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mNext.js app exited with code 1[39m
+
+   Pass --verbose to see the stacktrace.
+

@@ -4,6 +4,10 @@ const { join } = require('path');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+
+
     join(
       __dirname,
       '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'
@@ -11,7 +15,14 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        Skranji: ["Skranji","cursive"],
+        Acme: ["Acme", "sans-serif"],
+      },
+
+    },
   },
   plugins: [require('daisyui')],
 };
