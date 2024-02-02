@@ -75,20 +75,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "14598595795512493740"
+      },
+      {
         "file": ".prettierignore",
         "hash": "10412354725592254259"
       },
       {
-        "file": "README.md",
-        "hash": "6479168165376515074"
-      },
-      {
-        "file": "nx.json",
-        "hash": "2382986941197460357"
-      },
-      {
-        "file": "package.json",
-        "hash": "12412882508905385233"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".vscode/extensions.json",
@@ -99,44 +111,32 @@
         "hash": "15688913770383049508"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "README.md",
+        "hash": "6479168165376515074"
       },
       {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": ".gitignore",
-        "hash": "14598595795512493740"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5470816220312599482"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "nx.json",
+        "hash": "2382986941197460357"
       },
       {
         "file": "package-lock.json",
         "hash": "12719991790686488413"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
+        "file": "package.json",
+        "hash": "12412882508905385233"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5470816220312599482"
       },
       {
         "file": "vercel.json",
@@ -281,8 +281,30 @@
           "hash": "14964384807952471238"
         },
         {
+          "file": "web/components/frontslider/FrontSlider.tsx",
+          "hash": "8403953299427614969",
+          "deps": [
+            "npm:react",
+            "npm:react-slideshow-image"
+          ]
+        },
+        {
           "file": "web/components/game/Game.tsx",
           "hash": "9167377717470384"
+        },
+        {
+          "file": "web/components/hero/Hero.tsx",
+          "hash": "9016452300514288399",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/intro/Intro.tsx",
+          "hash": "4859815237101983909",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "web/components/nft/NFT.tsx",
@@ -363,6 +385,10 @@
         {
           "file": "web/public/arrow_right.svg",
           "hash": "11028692655085106491"
+        },
+        {
+          "file": "web/public/card_game.jpg",
+          "hash": "973477980260493994"
         },
         {
           "file": "web/public/enDAPP_logo.svg",
@@ -501,6 +527,14 @@
           "hash": "3399521072155697051"
         },
         {
+          "file": "web/public/varan_game.jpg",
+          "hash": "14412774582516707081"
+        },
+        {
+          "file": "web/public/varan_hero.jpg",
+          "hash": "17182604105724919821"
+        },
+        {
           "file": "web/public/varan_intro01.jpg",
           "hash": "8992937565407259277"
         },
@@ -525,12 +559,72 @@
           "hash": "12303819140247244298"
         },
         {
+          "file": "web/public/varan_promo01.png",
+          "hash": "16694239759408927503"
+        },
+        {
+          "file": "web/public/varan_promo02.png",
+          "hash": "8183231165441106283"
+        },
+        {
+          "file": "web/public/varan_promo03.png",
+          "hash": "17899886821271152069"
+        },
+        {
+          "file": "web/public/varan_promo04.png",
+          "hash": "3139227249383555390"
+        },
+        {
+          "file": "web/public/varan_promo05.png",
+          "hash": "2684299181847774814"
+        },
+        {
+          "file": "web/public/varan_promo06.png",
+          "hash": "16721490554811942708"
+        },
+        {
+          "file": "web/public/varan_promo07.png",
+          "hash": "6890920299308000987"
+        },
+        {
+          "file": "web/public/varan_promo08.jpg",
+          "hash": "10343316380719903561"
+        },
+        {
+          "file": "web/public/varan_promo09.jpg",
+          "hash": "8992937565407259277"
+        },
+        {
+          "file": "web/public/varan_slide_01.jpg",
+          "hash": "13439090564541744812"
+        },
+        {
+          "file": "web/public/varan_slide_02.jpg",
+          "hash": "3927038420734492723"
+        },
+        {
+          "file": "web/public/varan_slide_03.jpg",
+          "hash": "12442361161246464009"
+        },
+        {
+          "file": "web/public/varan_sliders01.jpg",
+          "hash": "11392655321405373234"
+        },
+        {
           "file": "web/public/varan_swordfishNEW.png",
           "hash": "10279511564843583968"
         },
         {
           "file": "web/public/varan_ukuleleNEW.png",
           "hash": "80286555715444344"
+        },
+        {
+          "file": "web/public/varan_webtoon.jpg",
+          "hash": "2517728204824750505"
+        },
+        {
+          "file": "web/public/varan_webtoon_ep01_02.png",
+          "hash": "15376193251416424227"
         },
         {
           "file": "web/public/vg_logo2023_grade.svg",
@@ -560,100 +654,6 @@
         {
           "file": "web/tsconfig.json",
           "hash": "17109732073356728639"
-        },
-        {
-          "file": "web/components/frontslider/FrontSlider.tsx",
-          "hash": "8403953299427614969",
-          "deps": [
-            "npm:react",
-            "npm:react-slideshow-image"
-          ]
-        },
-        {
-          "file": "web/components/intro/Intro.tsx",
-          "hash": "4859815237101983909",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "web/components/hero/Hero.tsx",
-          "hash": "9016452300514288399",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "web/public/varan_hero.jpg",
-          "hash": "17182604105724919821"
-        },
-        {
-          "file": "web/public/varan_promo06.png",
-          "hash": "16721490554811942708"
-        },
-        {
-          "file": "web/public/varan_promo02.png",
-          "hash": "8183231165441106283"
-        },
-        {
-          "file": "web/public/varan_promo09.jpg",
-          "hash": "8992937565407259277"
-        },
-        {
-          "file": "web/public/varan_promo01.png",
-          "hash": "16694239759408927503"
-        },
-        {
-          "file": "web/public/varan_promo04.png",
-          "hash": "3139227249383555390"
-        },
-        {
-          "file": "web/public/varan_promo08.jpg",
-          "hash": "10343316380719903561"
-        },
-        {
-          "file": "web/public/varan_promo05.png",
-          "hash": "2684299181847774814"
-        },
-        {
-          "file": "web/public/varan_promo07.png",
-          "hash": "6890920299308000987"
-        },
-        {
-          "file": "web/public/varan_promo03.png",
-          "hash": "17899886821271152069"
-        },
-        {
-          "file": "web/public/varan_webtoon_ep01_02.png",
-          "hash": "15376193251416424227"
-        },
-        {
-          "file": "web/public/card_game.jpg",
-          "hash": "973477980260493994"
-        },
-        {
-          "file": "web/public/varan_game.jpg",
-          "hash": "14412774582516707081"
-        },
-        {
-          "file": "web/public/varan_webtoon.jpg",
-          "hash": "2517728204824750505"
-        },
-        {
-          "file": "web/public/varan_slide_01.jpg",
-          "hash": "13439090564541744812"
-        },
-        {
-          "file": "web/public/varan_slide_02.jpg",
-          "hash": "3927038420734492723"
-        },
-        {
-          "file": "web/public/varan_slide_03.jpg",
-          "hash": "12442361161246464009"
-        },
-        {
-          "file": "web/public/varan_sliders01.jpg",
-          "hash": "11392655321405373234"
         }
       ],
       "anchor": [

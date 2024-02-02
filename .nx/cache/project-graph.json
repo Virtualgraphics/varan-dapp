@@ -14777,6 +14777,11 @@
       },
       {
         "source": "web",
+        "target": "npm:react-slideshow-image",
+        "type": "static"
+      },
+      {
+        "source": "web",
         "target": "npm:@coral-xyz/anchor",
         "type": "static"
       },
@@ -14808,11 +14813,6 @@
       {
         "source": "web",
         "target": "npm:daisyui",
-        "type": "static"
-      },
-      {
-        "source": "web",
-        "target": "npm:react-slideshow-image",
         "type": "static"
       }
     ],
