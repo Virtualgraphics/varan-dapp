@@ -75,72 +75,72 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "vercel.json",
-        "hash": "1598408354266276258"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "15688913770383049508"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5470816220312599482"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
-      },
-      {
-        "file": "package.json",
-        "hash": "12412882508905385233"
-      },
-      {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "14598595795512493740"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "10412354725592254259"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
       },
       {
         "file": "README.md",
         "hash": "6479168165376515074"
       },
       {
-        "file": "package-lock.json",
-        "hash": "12719991790686488413"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "nx.json",
         "hash": "2382986941197460357"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5470816220312599482"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "10412354725592254259"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "package.json",
+        "hash": "12412882508905385233"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "14598595795512493740"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15688913770383049508"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12719991790686488413"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
       }
     ],
     "projectFileMap": {
@@ -278,7 +278,7 @@
         },
         {
           "file": "web/app/page.tsx",
-          "hash": "570196312135617106",
+          "hash": "14277137927610815626",
           "deps": [
             "npm:next"
           ]
@@ -381,7 +381,7 @@
         },
         {
           "file": "web/components/game/Game.tsx",
-          "hash": "8133638118218156242",
+          "hash": "1616864356001086928",
           "deps": [
             "npm:next",
             "npm:react"
@@ -389,21 +389,21 @@
         },
         {
           "file": "web/components/hero/Hero.tsx",
-          "hash": "123396781470119849",
+          "hash": "5393355475756345581",
           "deps": [
             "npm:next"
           ]
         },
         {
           "file": "web/components/intro/Intro.tsx",
-          "hash": "13086513440690490855",
+          "hash": "4305820433823838303",
           "deps": [
             "npm:next"
           ]
         },
         {
           "file": "web/components/nft/NFT.tsx",
-          "hash": "16813972347286358214",
+          "hash": "12493609558208327233",
           "deps": [
             "npm:next",
             "npm:react"
@@ -428,7 +428,7 @@
         },
         {
           "file": "web/components/treasurehunt/TreasureHunt.tsx",
-          "hash": "16404405689855694165",
+          "hash": "13010971926717412845",
           "deps": [
             "npm:next",
             "npm:react"
@@ -436,7 +436,7 @@
         },
         {
           "file": "web/components/ui/ui-layout.tsx",
-          "hash": "1927014451377167974",
+          "hash": "14522969724408414171",
           "deps": [
             "npm:react",
             "npm:next",
@@ -841,6 +841,17 @@
         {
           "file": "web/public/nifty_island_logo.png",
           "hash": "9580690660068866060"
+        },
+        {
+          "file": "web/public/tribe_token.gif",
+          "hash": "11961050895624706625"
+        },
+        {
+          "file": "web/components/niftyisland/NiftyIsland.tsx",
+          "hash": "18313115250108163674",
+          "deps": [
+            "npm:next"
+          ]
         }
       ]
     }

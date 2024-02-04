@@ -1,6 +1,7 @@
 
 import Hero from "@/components/hero/Hero";
 import Intro from "@/components/intro/Intro";
+import NiftyIsland from "@/components/niftyisland/NiftyIsland";
 import Image from 'next/image'
 
 
@@ -25,6 +26,9 @@ export default function Page() {
 
   <Hero />;
   <Intro />;
+
+  <NiftyIsland/>
+
   </div>
   )
 }

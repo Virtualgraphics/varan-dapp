@@ -7,11 +7,11 @@ const Hero = () => {
     return (
 
       <>
-      <div className="bg-lime-400/30 px-4 py-10 mx-auto sm:max-w-xl md:max-w-full mt-none lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 rounded-3xl mt-10" >
+      <div className="bg-gradient-to-b from-blue-800 to-blue-400 px-4 py-10 mx-auto sm:max-w-xl md:max-w-full mt-none lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-10 rounded-3xl mt-10" >
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
 
-          <h5 className="mb-4 text-2xl  leading-none text-blue-800 font-Acme" >
+          <h5 className="mb-4 text-2xl  leading-none text-blue-200 font-Acme" >
           Chill and Earn with the Savage Varan Tribe
               
             </h5>
@@ -21,14 +21,11 @@ const Hero = () => {
               <br className="hidden md:block" /> </h1>
 
               
-            <p className="mb-6 text-green-900 text-2xl font-Acme">
+            <p className="mb-6 text-lime-300 text-2xl font-Acme">
             The SAVAGE VARAN SOCIETY Season 1: The Hunt for the Treasure of the Calypso is a fun and entertaining gamefi experience with NFTs, DeFi and video games of the zany and crazy Varans living the good life on Komodo island.
             </p> 
             
-            <p className="mb-6 text-green-900 text-2xl font-Acme">
-
-            Are you the first to find the Treasure of the Calypso?
-            </p>
+          
             <hr className="mb-5 border-yellow-300" />
           
 <div className='grid gap-0 grid-cols-2 align-middle self-auto mt-10'>

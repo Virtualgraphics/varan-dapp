@@ -66,7 +66,7 @@ export default function Game() {
       </section>
 
       <div className="w-4/5 flex justify-center my-8 sm:text-center sm:mx-auto">
-<h1 className='text-blue-800 text-center text-xl font-Acme'>
+<h1 className='text-white text-center text-xl font-Acme'>
 The Savage Varan Tribe Treasure Hunt is a browser game for Windows/Mac. The game will open in a new window.
 
 </h1></div>

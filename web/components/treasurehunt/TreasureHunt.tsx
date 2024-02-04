@@ -38,16 +38,16 @@ export default function TreasureHunt() {
         />
           </div>
 
-          <div className="bg-lime-600 rounded-3xl py-8 px-12">
+          <div className="bg-gradient-to-b from-blue-800 to-blue-400 rounded-3xl py-8 px-12">
             <div className='grid grid-cols-2 gap-4'>
 
 <div>
-<h1 className='font-Acme text-blue-900 text-3xl mt-12 mb-4'>THE TREASURE HUNT STORY</h1>
-<p className='font-Acme text-lime-300 text-xl '>
+<h1 className='font-Acme text-lime-400 text-3xl mt-12 mb-4'>THE TREASURE HUNT STORY</h1>
+<p className='font-Acme text-white text-xl '>
   
   When Komodo island is about to be taken over by the greedy investor Malcolm Butch Buggeridge to build a boring tourist resort, the Savage Varan only hope to save the island is to find the long-lost treasure of the sunken pirate ship Calypso.
 </p>
-<p className='font-Acme text-lime-300 text-xl mt-4'>
+<p className='font-Acme text-white text-xl mt-4'>
 Read about the history of the Calypso, collect the Treasure Map NFTs and go on a hunt to find the treasure before Butch Buggeridge gets his grubby, fat fingers on it. Help the Varans to unearth this immense fortune and share the spoils.
 </p>
 <Link href="/webtoon">
@@ -71,7 +71,7 @@ Read about the history of the Calypso, collect the Treasure Map NFTs and go on a
 
           </div>
 
-          <h1 className='text-center font-Acme text-blue-800 text-2xl mt-12 mb-4'>IT IS SUPER SIMPLE TO GET STARTED. JUST FOLLOW THE STEPS BELOW:</h1>
+          <h1 className='text-center font-Acme text-blue-800 text-2xl mt-12 mb-4'>IT IS SUPER SIMPLE TO GET STARTED:</h1>
 
           <div className='grid grid-cols-4 gap-4 mb-8'>
           <div>

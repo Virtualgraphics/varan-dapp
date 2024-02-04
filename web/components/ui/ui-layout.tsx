@@ -29,8 +29,8 @@ export function UiLayout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div className="h-svh flex flex-col bg-gradient-to-b from-lime-800 to-lime-400">
-      <div className="navbar bg-blue-900 text-neutral-content flex-col  md:flex-row space-y-8 md:space-y-0 p-4 font-Acme ">
+    <div className="h-svh flex flex-col bg-gradient-to-b from-lime-900 to-yellow-300">
+      <div className="navbar bg-gradient-to-b from-blue-900 to-blue-700 text-neutral-content flex-col  md:flex-row space-y-8 md:space-y-0 p-4 font-Acme ">
         <div className="flex-1 ">
           <Link className="text-2xl" href="/">
           <Image
@@ -83,7 +83,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
         <div className="w-full flex justify-center m-auto py-4 sm:text-center sm:mx-auto ">
 
 
-          <div className='grid grid-cols-3 gap-16'>
+          <div className='grid grid-cols-3 gap-1'>
          
          <div className='w-20 justify-items-end'>
    <Image
