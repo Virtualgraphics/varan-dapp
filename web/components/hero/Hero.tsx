@@ -11,34 +11,37 @@ const Hero = () => {
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
 
-          <h5 className="mb-4 text-2xl  leading-none text-blue-800 font-Skranji" >
-          Chill and Earn with the Savage Varans
+          <h5 className="mb-4 text-2xl  leading-none text-blue-800 font-Acme" >
+          Chill and Earn with the Savage Varan Tribe
               
             </h5>
             
-            <h1 className="mb-4 text-4xl leading-none text-yellow-300 font-Skranji" >
+            <h1 className="mb-4 text-4xl leading-none text-yellow-300 font-Acme" >
             Treasure Hunt on Komodo Island
               <br className="hidden md:block" /> </h1>
 
               
             <p className="mb-6 text-green-900 text-2xl font-Acme">
-            Chill and Earn and hang with the Savage Varans on their tropical island.  
-            Play games, watch cartoons and read comics to get clues to find the hidden 
-            treasure of the Calypso.
+            The SAVAGE VARAN SOCIETY Season 1: The Hunt for the Treasure of the Calypso is a fun and entertaining gamefi experience with NFTs, DeFi and video games of the zany and crazy Varans living the good life on Komodo island.
+            </p> 
+            
+            <p className="mb-6 text-green-900 text-2xl font-Acme">
+
+            Are you the first to find the Treasure of the Calypso?
             </p>
             <hr className="mb-5 border-yellow-300" />
           
 <div className='grid gap-0 grid-cols-2 align-middle self-auto mt-10'>
          
 <div className='w-40 '>
-<Link href="/nftmint">
+<Link href="/treasure">
 <button className="bg-blue-700 hover:bg-blue-500 text-white w-40 h-10 font-bold  px-4 rounded mt-1">
             Get started</button>
             </Link>
      
 </div>
 
-<Link href="/nftmint">
+<Link href="/nft">
 <button className="bg-blue-700 hover:bg-blue-500 text-white w-40 h-10 font-bold  px-4 rounded mt-1 shadow-lg">
             Mint NFT</button>
             </Link>

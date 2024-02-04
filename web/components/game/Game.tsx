@@ -5,8 +5,6 @@ import React from 'react';
 
 export default function Game() {
   
-
-  
     return (
       
       <div className="justify-center px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:pt-4">
@@ -89,7 +87,7 @@ The Savage Varan Tribe Treasure Hunt is a browser game for Windows/Mac. The game
           
         />
 
-        <p className='font-Acme text-lg text-blue-800 text-center my-4'>Chill and Earn on Komodo Island.</p>
+        <p className='font-Acme text-lg text-blue-800 text-center my-4'>Chill to Drill on Komodo Island.</p>
         </div>
 
 
