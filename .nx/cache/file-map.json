@@ -75,72 +75,72 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "package.json",
+        "hash": "12412882508905385233"
       },
       {
         "file": "nx.json",
         "hash": "2382986941197460357"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
+        "file": ".gitignore",
+        "hash": "14598595795512493740"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": ".gitattributes",
         "hash": "13194702717607086212"
       },
       {
-        "file": ".prettierignore",
-        "hash": "10412354725592254259"
+        "file": "LICENSE",
+        "hash": "15688913770383049508"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12719991790686488413"
-      },
-      {
-        "file": "README.md",
-        "hash": "6479168165376515074"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": "vercel.json",
-        "hash": "1598408354266276258"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "5470816220312599482"
       },
       {
-        "file": "LICENSE",
-        "hash": "15688913770383049508"
+        "file": ".prettierignore",
+        "hash": "10412354725592254259"
       },
       {
-        "file": ".gitignore",
-        "hash": "14598595795512493740"
+        "file": "package-lock.json",
+        "hash": "12719991790686488413"
       },
       {
-        "file": "package.json",
-        "hash": "12412882508905385233"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "README.md",
+        "hash": "6479168165376515074"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -428,7 +428,7 @@
         },
         {
           "file": "web/components/ui/ui-layout.tsx",
-          "hash": "9991036308203130555",
+          "hash": "7326764899642452567",
           "deps": [
             "npm:react",
             "npm:next",

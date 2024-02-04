@@ -29,7 +29,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div className="h-full flex flex-col bg-gradient-to-b from-lime-900 to-yellow-300">
+    <div className="h-svh flex flex-col bg-gradient-to-b from-lime-900 to-yellow-300">
       <div className="navbar bg-blue-900 text-neutral-content flex-col  md:flex-row space-y-8 md:space-y-0 p-4 font-Acme ">
         <div className="flex-1 ">
           <Link className="text-2xl" href="/">
@@ -73,8 +73,52 @@ export function UiLayout({ children }: { children: ReactNode }) {
         </Suspense>
         <Toaster position="bottom-right" />
       </div>
-      <footer className="footer footer-center p-4 bg-blue-900 text-base-content ">
+
+
+      <footer className="footer footer-center p-4 bg-lime-800 text-base-content ">
         <aside>
+
+        <h1 className='text-center text-yellow-200 text-lg font-lg my-4'>The Varandapp is powered by:</h1>
+       
+        <div className="w-full flex justify-center m-auto py-4 sm:text-center sm:mx-auto ">
+
+
+          <div className='grid grid-cols-3 gap-16'>
+         
+         <div className='w-20 justify-items-end'>
+   <Image
+          className="justify-items-end"
+          src="/vg_logoNEW_round.png"
+          alt="Virtual Graphics"
+          width={500}
+          height={500}
+          
+        />
+        </div>
+
+        <div className='flex items-center w-40 justify-items-center'>
+   <Image
+          className=""
+          src="/solana-logo.png"
+          alt="Solana"
+          width={2000}
+          height={2000}
+          
+        />
+        </div>
+
+        <div className='flex items-center w-32'>
+   <Image
+          className=""
+          src="/enDAPP_logo.svg"
+          alt="dnDAPP"
+          width={500}
+          height={500}
+          
+        />
+        </div>
+
+          </div></div>
           <p className="text-white">
             All art and content © 2024 {' '}
             <a
