@@ -144,6 +144,97 @@
       }
     ],
     "projectFileMap": {
+      "anchor": [
+        {
+          "file": "anchor/.eslintrc.json",
+          "hash": "10876657505767112116"
+        },
+        {
+          "file": "anchor/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "anchor/Anchor.toml",
+          "hash": "11156482985060500734"
+        },
+        {
+          "file": "anchor/Cargo.lock",
+          "hash": "7809825874495771088"
+        },
+        {
+          "file": "anchor/Cargo.toml",
+          "hash": "18016256559089331344"
+        },
+        {
+          "file": "anchor/README.md",
+          "hash": "7511245087790753582"
+        },
+        {
+          "file": "anchor/jest.config.ts",
+          "hash": "10789820129713498849",
+          "deps": [
+            "npm:fs"
+          ]
+        },
+        {
+          "file": "anchor/migrations/deploy.ts",
+          "hash": "165601981430021943",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/package.json",
+          "hash": "2762628074925719521"
+        },
+        {
+          "file": "anchor/programs/hello-world/Cargo.toml",
+          "hash": "11287746808207608867"
+        },
+        {
+          "file": "anchor/programs/hello-world/Xargo.toml",
+          "hash": "12304191003573283670"
+        },
+        {
+          "file": "anchor/programs/hello-world/src/lib.rs",
+          "hash": "4090617583428937675"
+        },
+        {
+          "file": "anchor/project.json",
+          "hash": "3285988145971848876"
+        },
+        {
+          "file": "anchor/src/hello-world-exports.ts",
+          "hash": "15783562880040060646"
+        },
+        {
+          "file": "anchor/src/index.ts",
+          "hash": "18301741715099281445"
+        },
+        {
+          "file": "anchor/target/types/hello-world.ts",
+          "hash": "2066624682315071610"
+        },
+        {
+          "file": "anchor/tests/hello-world.spec.ts",
+          "hash": "15499880517701726289",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/tsconfig.json",
+          "hash": "10304993020986584308"
+        },
+        {
+          "file": "anchor/tsconfig.lib.json",
+          "hash": "14539327243516648733"
+        },
+        {
+          "file": "anchor/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        }
+      ],
       "web": [
         {
           "file": "web/.eslintrc.json",
@@ -654,97 +745,6 @@
         {
           "file": "web/tsconfig.json",
           "hash": "17109732073356728639"
-        }
-      ],
-      "anchor": [
-        {
-          "file": "anchor/.eslintrc.json",
-          "hash": "10876657505767112116"
-        },
-        {
-          "file": "anchor/.swcrc",
-          "hash": "3236768094882387443"
-        },
-        {
-          "file": "anchor/Anchor.toml",
-          "hash": "11156482985060500734"
-        },
-        {
-          "file": "anchor/Cargo.lock",
-          "hash": "7809825874495771088"
-        },
-        {
-          "file": "anchor/Cargo.toml",
-          "hash": "18016256559089331344"
-        },
-        {
-          "file": "anchor/README.md",
-          "hash": "7511245087790753582"
-        },
-        {
-          "file": "anchor/jest.config.ts",
-          "hash": "10789820129713498849",
-          "deps": [
-            "npm:fs"
-          ]
-        },
-        {
-          "file": "anchor/migrations/deploy.ts",
-          "hash": "165601981430021943",
-          "deps": [
-            "npm:@coral-xyz/anchor"
-          ]
-        },
-        {
-          "file": "anchor/package.json",
-          "hash": "2762628074925719521"
-        },
-        {
-          "file": "anchor/programs/hello-world/Cargo.toml",
-          "hash": "11287746808207608867"
-        },
-        {
-          "file": "anchor/programs/hello-world/Xargo.toml",
-          "hash": "12304191003573283670"
-        },
-        {
-          "file": "anchor/programs/hello-world/src/lib.rs",
-          "hash": "4090617583428937675"
-        },
-        {
-          "file": "anchor/project.json",
-          "hash": "3285988145971848876"
-        },
-        {
-          "file": "anchor/src/hello-world-exports.ts",
-          "hash": "15783562880040060646"
-        },
-        {
-          "file": "anchor/src/index.ts",
-          "hash": "18301741715099281445"
-        },
-        {
-          "file": "anchor/target/types/hello-world.ts",
-          "hash": "2066624682315071610"
-        },
-        {
-          "file": "anchor/tests/hello-world.spec.ts",
-          "hash": "15499880517701726289",
-          "deps": [
-            "npm:@coral-xyz/anchor"
-          ]
-        },
-        {
-          "file": "anchor/tsconfig.json",
-          "hash": "10304993020986584308"
-        },
-        {
-          "file": "anchor/tsconfig.lib.json",
-          "hash": "14539327243516648733"
-        },
-        {
-          "file": "anchor/tsconfig.spec.json",
-          "hash": "17313551537729802733"
         }
       ]
     }
