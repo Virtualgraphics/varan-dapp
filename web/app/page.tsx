@@ -24,7 +24,7 @@ export default function Page() {
         </div>
 
   <Hero />;
-  <Intro />
+  <Intro />;
   </div>
   )
 }
