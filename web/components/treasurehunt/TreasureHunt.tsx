@@ -42,7 +42,7 @@ export default function TreasureHunt() {
             <div className='grid grid-cols-2 gap-4'>
 
 <div>
-<h1 className='font-Acme text-lime-400 text-3xl mt-12 mb-4'>THE TREASURE HUNT STORY</h1>
+<h1 className='font-Acme text-yellow-300 text-3xl mt-8 mb-4'>THE TREASURE HUNT STORY</h1>
 <p className='font-Acme text-white text-xl '>
   
   When Komodo island is about to be taken over by the greedy investor Malcolm Butch Buggeridge to build a boring tourist resort, the Savage Varan only hope to save the island is to find the long-lost treasure of the sunken pirate ship Calypso.
@@ -51,7 +51,7 @@ export default function TreasureHunt() {
 Read about the history of the Calypso, collect the Treasure Map NFTs and go on a hunt to find the treasure before Butch Buggeridge gets his grubby, fat fingers on it. Help the Varans to unearth this immense fortune and share the spoils.
 </p>
 <Link href="/webtoon">
-            <button className="bg-blue-900 hover:bg-blue-500 text-white font-medium py-2 px-4 rounded mt-5 ">
+            <button className="bg-blue-900 hover:bg-blue-500 text-white font-medium py-2 px-4 rounded-xl mt-5 ">
             Read Webtoons
 </button>  </Link>
 </div>

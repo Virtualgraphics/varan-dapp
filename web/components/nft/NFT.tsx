@@ -27,7 +27,7 @@ export default function NFT() {
           </p>  
           </div>
 
-          <div className="bg-lime-600 rounded-3xl py-8 px-12">
+          <div className="bg-lime-600/20 rounded-3xl py-8 px-12">
             <div className='grid grid-cols-2 gap-4'>
 
 <div>
@@ -69,7 +69,7 @@ export default function NFT() {
             </div>
             </div>
 
-            <div className="bg-lime-800/50 rounded-3xl py-8 px-12 my-12">
+            <div className="bg-lime-800/30 rounded-3xl py-8 px-12 my-12">
             <div className='grid grid-cols-2 gap-8'>
 
 <div>

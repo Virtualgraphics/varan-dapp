@@ -75,44 +75,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
-        "file": "README.md",
-        "hash": "6479168165376515074"
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "2382986941197460357"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5470816220312599482"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
+        "file": "LICENSE",
+        "hash": "15688913770383049508"
       },
       {
         "file": ".prettierignore",
         "hash": "10412354725592254259"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "nx.json",
+        "hash": "2382986941197460357"
       },
       {
         "file": "package.json",
@@ -123,118 +107,43 @@
         "hash": "14598595795512493740"
       },
       {
-        "file": "LICENSE",
-        "hash": "15688913770383049508"
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
       },
       {
         "file": ".gitattributes",
         "hash": "13194702717607086212"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "README.md",
+        "hash": "6479168165376515074"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5470816220312599482"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
       },
       {
         "file": "package-lock.json",
         "hash": "12719991790686488413"
-      },
-      {
-        "file": "vercel.json",
-        "hash": "1598408354266276258"
       }
     ],
     "projectFileMap": {
-      "anchor": [
-        {
-          "file": "anchor/.eslintrc.json",
-          "hash": "10876657505767112116"
-        },
-        {
-          "file": "anchor/.swcrc",
-          "hash": "3236768094882387443"
-        },
-        {
-          "file": "anchor/Anchor.toml",
-          "hash": "11156482985060500734"
-        },
-        {
-          "file": "anchor/Cargo.lock",
-          "hash": "7809825874495771088"
-        },
-        {
-          "file": "anchor/Cargo.toml",
-          "hash": "18016256559089331344"
-        },
-        {
-          "file": "anchor/README.md",
-          "hash": "7511245087790753582"
-        },
-        {
-          "file": "anchor/jest.config.ts",
-          "hash": "10789820129713498849",
-          "deps": [
-            "npm:fs"
-          ]
-        },
-        {
-          "file": "anchor/migrations/deploy.ts",
-          "hash": "165601981430021943",
-          "deps": [
-            "npm:@coral-xyz/anchor"
-          ]
-        },
-        {
-          "file": "anchor/package.json",
-          "hash": "2762628074925719521"
-        },
-        {
-          "file": "anchor/programs/hello-world/Cargo.toml",
-          "hash": "11287746808207608867"
-        },
-        {
-          "file": "anchor/programs/hello-world/Xargo.toml",
-          "hash": "12304191003573283670"
-        },
-        {
-          "file": "anchor/programs/hello-world/src/lib.rs",
-          "hash": "4090617583428937675"
-        },
-        {
-          "file": "anchor/project.json",
-          "hash": "3285988145971848876"
-        },
-        {
-          "file": "anchor/src/hello-world-exports.ts",
-          "hash": "15783562880040060646"
-        },
-        {
-          "file": "anchor/src/index.ts",
-          "hash": "18301741715099281445"
-        },
-        {
-          "file": "anchor/target/types/hello-world.ts",
-          "hash": "2066624682315071610"
-        },
-        {
-          "file": "anchor/tests/hello-world.spec.ts",
-          "hash": "15499880517701726289",
-          "deps": [
-            "npm:@coral-xyz/anchor"
-          ]
-        },
-        {
-          "file": "anchor/tsconfig.json",
-          "hash": "10304993020986584308"
-        },
-        {
-          "file": "anchor/tsconfig.lib.json",
-          "hash": "14539327243516648733"
-        },
-        {
-          "file": "anchor/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        }
-      ],
       "web": [
         {
           "file": "web/.eslintrc.json",
@@ -403,10 +312,17 @@
         },
         {
           "file": "web/components/nft/NFT.tsx",
-          "hash": "12493609558208327233",
+          "hash": "15084274732894843063",
           "deps": [
             "npm:next",
             "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/niftyisland/NiftyIsland.tsx",
+          "hash": "18313115250108163674",
+          "deps": [
+            "npm:next"
           ]
         },
         {
@@ -428,7 +344,7 @@
         },
         {
           "file": "web/components/treasurehunt/TreasureHunt.tsx",
-          "hash": "13010971926717412845",
+          "hash": "8327521947978334054",
           "deps": [
             "npm:next",
             "npm:react"
@@ -436,7 +352,7 @@
         },
         {
           "file": "web/components/ui/ui-layout.tsx",
-          "hash": "14522969724408414171",
+          "hash": "17412270145438568104",
           "deps": [
             "npm:react",
             "npm:next",
@@ -482,6 +398,46 @@
           "hash": "3244421341483603138"
         },
         {
+          "file": "web/public/120.png",
+          "hash": "2758315321844952915"
+        },
+        {
+          "file": "web/public/16.png",
+          "hash": "16066227803973382490"
+        },
+        {
+          "file": "web/public/177.png",
+          "hash": "4236555873505389643"
+        },
+        {
+          "file": "web/public/28.png",
+          "hash": "11362896671315155367"
+        },
+        {
+          "file": "web/public/5.png",
+          "hash": "9034717691816841219"
+        },
+        {
+          "file": "web/public/51.png",
+          "hash": "7301538231464248769"
+        },
+        {
+          "file": "web/public/60.png",
+          "hash": "6980056424707222701"
+        },
+        {
+          "file": "web/public/67.png",
+          "hash": "6499088338312058202"
+        },
+        {
+          "file": "web/public/76.png",
+          "hash": "13066398891755825259"
+        },
+        {
+          "file": "web/public/88.png",
+          "hash": "4143477089383925961"
+        },
+        {
           "file": "web/public/Komodo-Island-map01.png",
           "hash": "9742650744756894898"
         },
@@ -494,8 +450,20 @@
           "hash": "11028692655085106491"
         },
         {
+          "file": "web/public/card_defi.jpg",
+          "hash": "9822387122243128119"
+        },
+        {
           "file": "web/public/card_game.jpg",
           "hash": "973477980260493994"
+        },
+        {
+          "file": "web/public/chill_animation.gif",
+          "hash": "4049038275238015181"
+        },
+        {
+          "file": "web/public/combat_animation.gif",
+          "hash": "7843824136457106130"
         },
         {
           "file": "web/public/enDAPP_logo.svg",
@@ -526,12 +494,28 @@
           "hash": "13350880582188264387"
         },
         {
+          "file": "web/public/game_image.jpg",
+          "hash": "5500223518404031743"
+        },
+        {
           "file": "web/public/logo_enDAPPSM.gif",
           "hash": "15799314735401439913"
         },
         {
+          "file": "web/public/map_animation.gif",
+          "hash": "6695174576205434182"
+        },
+        {
+          "file": "web/public/nifty_island_logo.png",
+          "hash": "9580690660068866060"
+        },
+        {
           "file": "web/public/pirates01.png",
           "hash": "2022342220295592118"
+        },
+        {
+          "file": "web/public/promo_nft_compilation01.gif",
+          "hash": "16739219373504698290"
         },
         {
           "file": "web/public/promo_rectangular.jpg",
@@ -544,6 +528,10 @@
         {
           "file": "web/public/solana-logo.png",
           "hash": "3728061907754647018"
+        },
+        {
+          "file": "web/public/solana-sol-logo.png",
+          "hash": "8668185809908737351"
         },
         {
           "file": "web/public/token_tribe.jpg",
@@ -564,6 +552,14 @@
         {
           "file": "web/public/tool_shovel.jpg",
           "hash": "13274228564463075246"
+        },
+        {
+          "file": "web/public/tools_animation.gif",
+          "hash": "16607066619461160364"
+        },
+        {
+          "file": "web/public/treasure_animation.gif",
+          "hash": "13230373256641774443"
         },
         {
           "file": "web/public/treasure_cest_01.png",
@@ -608,6 +604,10 @@
         {
           "file": "web/public/treasure_map02.png",
           "hash": "9875853538437850628"
+        },
+        {
+          "file": "web/public/tribe_token.gif",
+          "hash": "11961050895624706625"
         },
         {
           "file": "web/public/tribe_token02.jpg",
@@ -734,6 +734,10 @@
           "hash": "7922869891103922278"
         },
         {
+          "file": "web/public/vg_logoNEW_round.png",
+          "hash": "10277943286592354304"
+        },
+        {
           "file": "web/public/weapon_axe.jpg",
           "hash": "17056654092191860762"
         },
@@ -757,101 +761,97 @@
         {
           "file": "web/tsconfig.json",
           "hash": "17109732073356728639"
+        }
+      ],
+      "anchor": [
+        {
+          "file": "anchor/.eslintrc.json",
+          "hash": "10876657505767112116"
         },
         {
-          "file": "web/public/vg_logoNEW_round.png",
-          "hash": "10277943286592354304"
+          "file": "anchor/.swcrc",
+          "hash": "3236768094882387443"
         },
         {
-          "file": "web/public/solana-sol-logo.png",
-          "hash": "8668185809908737351"
+          "file": "anchor/Anchor.toml",
+          "hash": "11156482985060500734"
         },
         {
-          "file": "web/public/promo_nft_compilation01.gif",
-          "hash": "16739219373504698290"
+          "file": "anchor/Cargo.lock",
+          "hash": "7809825874495771088"
         },
         {
-          "file": "web/public/5.png",
-          "hash": "9034717691816841219"
+          "file": "anchor/Cargo.toml",
+          "hash": "18016256559089331344"
         },
         {
-          "file": "web/public/16.png",
-          "hash": "16066227803973382490"
+          "file": "anchor/README.md",
+          "hash": "7511245087790753582"
         },
         {
-          "file": "web/public/88.png",
-          "hash": "4143477089383925961"
-        },
-        {
-          "file": "web/public/60.png",
-          "hash": "6980056424707222701"
-        },
-        {
-          "file": "web/public/76.png",
-          "hash": "13066398891755825259"
-        },
-        {
-          "file": "web/public/28.png",
-          "hash": "11362896671315155367"
-        },
-        {
-          "file": "web/public/177.png",
-          "hash": "4236555873505389643"
-        },
-        {
-          "file": "web/public/51.png",
-          "hash": "7301538231464248769"
-        },
-        {
-          "file": "web/public/67.png",
-          "hash": "6499088338312058202"
-        },
-        {
-          "file": "web/public/120.png",
-          "hash": "2758315321844952915"
-        },
-        {
-          "file": "web/public/card_defi.jpg",
-          "hash": "9822387122243128119"
-        },
-        {
-          "file": "web/public/game_image.jpg",
-          "hash": "5500223518404031743"
-        },
-        {
-          "file": "web/public/tools_animation.gif",
-          "hash": "16607066619461160364"
-        },
-        {
-          "file": "web/public/treasure_animation.gif",
-          "hash": "13230373256641774443"
-        },
-        {
-          "file": "web/public/combat_animation.gif",
-          "hash": "7843824136457106130"
-        },
-        {
-          "file": "web/public/map_animation.gif",
-          "hash": "6695174576205434182"
-        },
-        {
-          "file": "web/public/chill_animation.gif",
-          "hash": "4049038275238015181"
-        },
-        {
-          "file": "web/public/nifty_island_logo.png",
-          "hash": "9580690660068866060"
-        },
-        {
-          "file": "web/public/tribe_token.gif",
-          "hash": "11961050895624706625"
-        },
-        {
-          "file": "web/components/niftyisland/NiftyIsland.tsx",
-          "hash": "18313115250108163674",
+          "file": "anchor/jest.config.ts",
+          "hash": "10789820129713498849",
           "deps": [
-            "npm:next"
+            "npm:fs"
           ]
+        },
+        {
+          "file": "anchor/migrations/deploy.ts",
+          "hash": "165601981430021943",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/package.json",
+          "hash": "2762628074925719521"
+        },
+        {
+          "file": "anchor/programs/hello-world/Cargo.toml",
+          "hash": "11287746808207608867"
+        },
+        {
+          "file": "anchor/programs/hello-world/Xargo.toml",
+          "hash": "12304191003573283670"
+        },
+        {
+          "file": "anchor/programs/hello-world/src/lib.rs",
+          "hash": "4090617583428937675"
+        },
+        {
+          "file": "anchor/project.json",
+          "hash": "3285988145971848876"
+        },
+        {
+          "file": "anchor/src/hello-world-exports.ts",
+          "hash": "15783562880040060646"
+        },
+        {
+          "file": "anchor/src/index.ts",
+          "hash": "18301741715099281445"
+        },
+        {
+          "file": "anchor/target/types/hello-world.ts",
+          "hash": "2066624682315071610"
+        },
+        {
+          "file": "anchor/tests/hello-world.spec.ts",
+          "hash": "15499880517701726289",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/tsconfig.json",
+          "hash": "10304993020986584308"
+        },
+        {
+          "file": "anchor/tsconfig.lib.json",
+          "hash": "14539327243516648733"
+        },
+        {
+          "file": "anchor/tsconfig.spec.json",
+          "hash": "17313551537729802733"
         }
       ]
     }

@@ -29,7 +29,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div className="h-svh flex flex-col bg-gradient-to-b from-lime-900 to-yellow-300">
+    <div className="h-svh flex flex-col bg-gradient-to-b from-green-800 to-lime-400">
       <div className="navbar bg-gradient-to-b from-blue-900 to-blue-700 text-neutral-content flex-col  md:flex-row space-y-8 md:space-y-0 p-4 font-Acme ">
         <div className="flex-1 ">
           <Link className="text-2xl" href="/">
