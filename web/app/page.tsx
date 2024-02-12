@@ -14,10 +14,10 @@ export default function Page() {
 <div className='' >
             <Image
               className="object-cover w-screen "
-              src="/varan_slide_01.jpg"
+              src="/varan_slide_05.jpg"
               alt="Main Slide"
-              width={900}
-              height={2500}
+              width={2500}
+              height={900}
             />
 
 
